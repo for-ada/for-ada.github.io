@@ -30,3 +30,13 @@ nav {
 	position:absolute;
 	top:400;
 }
+#gray_background{
+	margin-top:50px;
+	width:1300px;
+}
+//this one is not working correctly
+div.text body{
+	position:absolute;
+	top:600;
+	left:250;
+}
