@@ -19,29 +19,51 @@
 	<link rel ="stylesheet" type="text/css" href="index.css">
 
 </head>
-		
+<div id="main">		
 <header>
 		<center><img src="logo.jpg" alt="logo" width="250" height="250"></center>
 </header>
 
 <nav>
 	
+	<span style="font-size:30px;cursor:pointer;" align="left" onclick="openNav()">☰ Menu</span>
 	<a href="homepage.html" id="a" align="left"><font size="6">HOMEPAGE</a></font>                     
 	<a href="fa_about_us.html" id="a" align="center"><font size="6">ABOUT</a></font>                     
 	<a href="spotlight.html" id="a" align="right"><font size="6">SPOTLIGHT</a></font>
 	
-</nav>
-
-<body>
-	
-	<center><img id="gray_background" src="background.jpg" alt=""></center>
-	
-	<div class="text">
-		<body>
-			<center><h1>Non-Profit Organizations</center>
-		</body>
+	<div id="mySidenav" class="sidenav">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+	  <a href="non_profit_organizations.html">Non-Profit Organizations</a>
+	  <a href="tech_companies.html">Tech Companies</a>
+	  <a href="awareness.html">Awareness</a>
+	  <a href="education_occupation.html">Education/Occupation</a>
 	</div>
 
+	<script>
+	function openNav() {
+		document.getElementById("mySidenav").style.width = "250px";
+		document.getElementById("main").style.marginLeft = "250px";
+		document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+	}
+
+	function closeNav() {
+		document.getElementById("mySidenav").style.width = "0";
+		document.getElementById("main").style.marginLeft= "0";
+		document.body.style.backgroundColor = "white";
+	}
+	</script>
+  
+</nav>
+
+
+<body>
+
+	
+	<center><img id="gray_background" src="background.jpg" alt=""></center>
+	<h1 id="text" align="center">Non-Profit Organizations</h1>
+	
+	
 </body>
+</div>
 
 </html>
