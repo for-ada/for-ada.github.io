@@ -20,7 +20,7 @@ a:active {
 }
 #a{
 	letter-spacing: 3px;
-	padding:100px 135px;
+	padding:50px 50px;
 	margin-top: 100px;
 	margin-bottom:100px;
 	font-size: 4;
@@ -28,16 +28,14 @@ a:active {
 nav {
 	font-family:Railway Thin;
 	position:absolute;
-	top:400;
 }
 #gray_background{
 	margin-top:50px;
 	width:1300px;
 }
-//this one is not working correctly
-div.text body{
+#text{
 	position:absolute;
-	top:600;
+	top:400;
 	left:250;
 }
 h1{
@@ -48,4 +46,52 @@ h2{
 }
 p{
 	color: #000E17;
+}
+body {
+    font-family: Railway Thin;
+    transition: background-color .5s;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:  #000e17;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 50px 20px 20px 25px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #fed20c;
+}
+
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
