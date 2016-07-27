@@ -40,16 +40,13 @@ nav {
 }
 #text2{
 	position:absolute;
-	top:475px;
-	left:190px;
+	top:500px;
+	left:40px;
 }
 h1{
-	color: #01415F
+	color: #01415F;
 }
 h2{
-	color: #53D1EE
-}
-p{
 	color: #000E17;
 }
 body {
