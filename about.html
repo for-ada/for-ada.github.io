@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+   
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="webpage.css" rel="stylesheet">
+    <link href="css/full-slider.css" rel="stylesheet">
+	<link rel ="stylesheet" type="text/css" href="index.css">
+</head>	
+<header>
+		<center><img src="logo.jpg" alt="logo" width="250" height="250"></center>
+</header>
+	
+<nav>
+	
+	<span style="font-size:30px;cursor:pointer;" align="left" onclick="openNav()">☰ Menu</span>
+	<a href="homepage.html" id="a" align="left"><font size="6">HOMEPAGE</a></font>                     
+	<a href="about.html" id="a" align="center"><font size="6">ABOUT</a></font>                     
+	<a href="spotlight.html" id="a" align="right"><font size="6">SPOTLIGHT</a></font>
+	
+	<div id="mySidenav" class="sidenav">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+	  <a href="non_profit_organizations.html">Non-Profit Organizations</a>
+	  <a href="tech_companies.html">Tech Companies</a>
+	  <a href="awareness.html">Awareness</a>
+	  <a href="education_occupation.html">Education/Occupation</a>
+	</div>
+
+	<script>
+	function openNav() {
+		document.getElementById("mySidenav").style.width = "250px";
+		document.getElementById("main").style.marginLeft = "250px";
+		document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+	}
+	function closeNav() {
+		document.getElementById("mySidenav").style.width = "0";
+		document.getElementById("main").style.marginLeft= "0";
+		document.body.style.backgroundColor = "white";
+	}
+	</script>
+
+<body>
+	
+	<center><img id="gray_background" src="background.jpg" alt=""></center>
+	<img src="aboutus.png" alt="About Us" width="200px" height="50px" style="position:absolute; top:120px; left:130px;">
+	<img src= "group.jpg" alt="group picture" width="400px" height="200px" style="position:absolute; top:190px; left:450px;">
+	<p style="top: 400px; left: 130px; position: absolute; margin-right: 30px;"> Formed on July 2016, for {ada} was created by four female coders.
+	As the technology industry has continued to expand, many studies have shown that the percentage of girls interested or pursuing STEM has been very small compared to that of boys.
+	This is because of what each gender is exposed to, girls are encouraged to pursue more “feminine” careers such as dancers or writers, while boys typically are encouraged to be scientists or athletes.
+	What girls are not told is that many times STEM is incorporated into a wide variety of fields, from art to film.
+	Due to this lack of STEM exposure to young girls, our group is creating a community powered website that brings awareness to all things tech related.
+	We hope to provide encouragement to young girls to pursue STEM fields by providing role models and a place where girls can encourage each other and help each other find success in their respective fields. 
+	</p>
+	<img src="cg.png" alt="Community Guidelines" width="352px" height="174" style="position:absolute; top:510px; left:100px;">
+	<ul style="position: absolute; top:670px; left: 100px;">
+		<li><b>Be respectful:</b> Since this is a community, we want it to be a place where people can openly express themseleves without fear of being judged so please respect others opinions.</li>
+		<li><b>Be kind:</b> If you have something to say be kind, discussions are welcome not arguments.</li>
+		<li><b> Be mindful:</b> If copying content from another site please make sure to cite them and their credentials.</li>
+		<li><b> Have fun!</b> Other than these basic rules, we urge you to have fun and enjoy speaking to others! 
+		Also don't be afraid to post or submit an article, we'd love to read what you have to share. :) </li>
+	</ul>
+
+
+</body>
+
+</html>
