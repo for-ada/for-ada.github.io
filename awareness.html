@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<!-- jQuery Library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<!-- Latest compiled JavaScript -->
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<script language="javascript" type="text/javascript"></script>
+   
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="webpage.css" rel="stylesheet">
+    <link href="css/full-slider.css" rel="stylesheet">
+	<link rel ="stylesheet" type="text/css" href="index.css">
+</head>	
+<header>
+		<center><img src="logo.jpg" alt="logo" width="250" height="250"></center>
+</header>
+	
+<nav>
+	
+	<span style="font-size:30px;cursor:pointer;" align="left" onclick="openNav()">☰ Menu</span>
+	<a href="homepage.html" id="a" align="left"><font size="6">HOMEPAGE</a></font>                     
+	<a href="about.html" id="a" align="center"><font size="6">ABOUT</a></font>                     
+	<a href="spotlight.html" id="a" align="right"><font size="6">SPOTLIGHT</a></font>
+	
+	<div id="mySidenav" class="sidenav">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+	  <a href="non_profit_organizations.html">Non-Profit Organizations</a>
+	  <a href="tech_companies.html">Tech Companies</a>
+	  <a href="awareness.html">Awareness</a>
+	  <a href="education_occupation.html">Education/Occupation</a>
+	</div>
+
+	<script>
+	function openNav() {
+		document.getElementById("mySidenav").style.width = "250px";
+		document.getElementById("main").style.marginLeft = "250px";
+		document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+	}
+	function closeNav() {
+		document.getElementById("mySidenav").style.width = "0";
+		document.getElementById("main").style.marginLeft= "0";
+		document.body.style.backgroundColor = "white";
+	}
+	</script>
+
+<body>
+	<center><img id="gray_background" src="background.jpg" alt="Gray Background"></center>
+	<div class="media" style="float: right; position: absolute; left: 130px; top:130px; margin-right: 600px">
+  <div class="media-left media-middle">
+    <a href="#">
+      <img class="media-object" src="socialmedia.jpg" alt="The Struggle Behind Social Media" height="200px" width="200px">
+    </a>
+  </div>
+  <div class="media-body">
+    <h3 class="media-heading">What is the truth behind those perfect Instagram pictures?</h3>
+    <p>By this point we all know that social media isn't an accurate view of reality.
+	Although we know this, without realizing it social media still plays a huge influence on our daily lives. 
+	Many dream of things they see in social media, such as the couple that travels all over the world.
+	We crave to have the amazing bodies of instagram stars. It's because of this that many times we rarely feel satisfied with ourselves...<p>
+  </div>
+</div> 
+	<div class="media" style="float: right; position: absolute; left: 130px; top:400px; margin-right: 600px">
+  <div class="media-left media-middle">
+    <a href="#">
+      <img class="media-object" src="industry.jpg" alt="Working in a male-dominated Industry" height="200px" width="200px">
+    </a>
+  </div>
+  <div class="media-body">
+    <h3 class="media-heading">What is the truth behind those perfect Instagram pictures?</h3>
+    <p><p>
+  </div>
+</div> 
+
+</body>
+
+</html>
