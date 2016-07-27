@@ -27,7 +27,10 @@ a:active {
 }
 nav {
 	font-family:Railway Thin;
-	position:absolute;
+	position:relative;
+	TOP:30px;
+	LEFT:300px;
+	BOTTOM:10px;
 }
 #gray_background{
 	margin-top:50px;
@@ -40,7 +43,7 @@ nav {
 }
 #text2{
 	position:absolute;
-	top:500px;
+	top:520px;
 	left:40px;
 }
 h1{
@@ -110,7 +113,7 @@ div.img {
 }
 
 div.img:hover {
-    border: 1px solid #777;
+    border: 2px solid #777;
 }
 
 div.img img {
