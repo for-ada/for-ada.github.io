@@ -31,17 +31,16 @@ nav {
 }
 #gray_background{
 	margin-top:50px;
-	width:1300px;
+	width:1325px;
 }
 #text{
 	position:absolute;
 	top:400px;
 	left:190px;
-	letter-spacing: 2px;
 }
 #text2{
 	position:absolute;
-	top:460px;
+	top:475px;
 	left:190px;
 }
 h1{
@@ -105,11 +104,12 @@ body {
 #spotlight_container{
 	position:absolute;
 	top:500px;
-	left:190px;
+	left:30px;
 }
 div.img {
     border: 1px solid #ccc;
 	margin-right:20px;
+	margin-top:40px;
 }
 
 div.img:hover {
