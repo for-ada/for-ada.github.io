@@ -36,7 +36,13 @@ nav {
 #text{
 	position:absolute;
 	top:400px;
-	left:250px;
+	left:190px;
+	letter-spacing: 2px;
+}
+#text2{
+	position:absolute;
+	top:460px;
+	left:190px;
 }
 h1{
 	color: #01415F
@@ -82,7 +88,7 @@ body {
     position: absolute;
     top: 0;
     right: 25px;
-    font-size: 36px !important;
+    font-size: 36px;
     margin-left: 50px;
 }
 
@@ -94,4 +100,58 @@ body {
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+}
+
+#spotlight_container{
+	position:absolute;
+	top:500px;
+	left:190px;
+}
+div.img {
+    border: 1px solid #ccc;
+	margin-right:20px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+	font-family: Railway Thin;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 20px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
