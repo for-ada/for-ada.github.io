@@ -46,13 +46,36 @@
 <body>
 	<nav>
 
-		<img src="navbar.jpg" height="20">
+		<span style="font-size:20px;cursor:pointer" onclick="openNav()"><font color="#d90c1e" >☰ Menu</font></span>
 		<a href="homepage.html" id="a" font-family="arial">HOMEPAGE</a>
 		<a href="about.html" id="a" font-family="arial">ABOUT</a>
 		<a href="spotlight.html" id="a" font-family="arial">SPOTLIGHT</a>
 		<a href="contribute.html" id="a" font-family="arial">CONTRIBUTE</a>
 		<br></br><br></br><br></br><br></br><br></br>
+		
+		<div id="mySidenav" class="sidenav">
+		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+		  <a href="non_profit_organizations.html">Non-Profit Organizations</a>
+		  <a href="tech_companies.html">Tech Companies</a>
+		  <a href="awareness.html">Awareness</a>
+		  <a href="education_occupation.html">Education/Occupation</a>
+		</div>
+	
+		<script>
+		function openNav() {
+			document.getElementById("mySidenav").style.width = "250px";
+			document.getElementById("main").style.marginLeft = "250px";
+			document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+		}
+		function closeNav() {
+			document.getElementById("mySidenav").style.width = "0";
+			document.getElementById("main").style.marginLeft= "0";
+			document.body.style.backgroundColor = "white";
+		}
+		</script>
+	
 	</nav>
+	
 	<hr style="width: 100%; color: black; height: 1px; background-color:black;" />
 	
 	<br></br><br></br>
