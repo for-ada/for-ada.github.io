@@ -28,9 +28,9 @@ a:active {
 nav {
 	font-family:arial;
 	position:relative;
-	TOP:30px;
-	LEFT:300px;
-	BOTTOM:10px;
+	top:30px;
+	left:100px;
+	bottom:10px;
 }
 #gray_background{
 	margin-top:50px;
