@@ -37,11 +37,12 @@ nav {
 	width:1325px;
 	position:absolute;
 	left:20px;
+	top:490px;
 }
 #text{
 	position:absolute;
-	top:510px;
-	left:20px;
+	top:490px;
+	left:30px;
 }
 #text2{
 	position:absolute;
