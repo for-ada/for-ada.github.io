@@ -35,6 +35,8 @@ nav {
 #gray_background{
 	margin-top:50px;
 	width:1325px;
+	position:absolute;
+	left:20px;
 }
 #text{
 	position:absolute;
