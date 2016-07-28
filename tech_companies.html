@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	
+	<link href="webpage.css" rel="stylesheet">
+
+    <link href="css/full-slider.css" rel="stylesheet">
+	
+	<link rel ="stylesheet" type="text/css" href="index.css">
+
+</head>
+<div id="main">		
+<header>
+		<center><img src="logo.jpg" alt="logo" width="250" height="250"></center>
+</header>
+
+<nav>
+	
+	<span style="font-size:30px;cursor:pointer;" align="left" onclick="openNav()">☰ Menu</span>
+	<a href="homepage.html" id="a" align="left"><font size="6">HOMEPAGE</a></font>                     
+	<a href="fa_about_us.html" id="a" align="center"><font size="6">ABOUT</a></font>                     
+	<a href="spotlight.html" id="a" align="right"><font size="6">SPOTLIGHT</a></font>
+	<a href="contribute.html" id="a" align="right"><font size="6">CONTRIBUTE</a></font>
+	
+	<div id="mySidenav" class="sidenav">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+	  <a href="non_profit_organizations.html">Non-Profit Organizations</a>
+	  <a href="tech_companies.html">Tech Companies</a>
+	  <a href="awareness.html">Awareness</a>
+	  <a href="education_occupation.html">Education/Occupation</a>
+	</div>
+
+	<script>
+	function openNav() {
+		document.getElementById("mySidenav").style.width = "250px";
+		document.getElementById("main").style.marginLeft = "250px";
+		document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+	}
+	function closeNav() {
+		document.getElementById("mySidenav").style.width = "0";
+		document.getElementById("main").style.marginLeft= "0";
+		document.body.style.backgroundColor = "white";
+	}
+	</script>
+  
+</nav>
+
+<body>
+	
+	<center><img id="gray_background" src="background.jpg" alt="" height="2000"></center>
+	
+	<img id="text" src="tech_companies.png" alt="">
+	
+	
+	<div id="text2">
+	
+	
+		<div class="media">
+		  <div class="media-left media-middle">
+			<a href="http://crea7ive.com">
+			  <img class="media-object" src="crea7ive.jpg" alt="crea7ive" width="500" height="250">
+			</a>
+		  </div>
+		  <div class="media-body">
+			<h4 class="media-heading">Crea7ive</h4>
+			A company started by Pia Celestino.
+		  </div>
+		</div>
+		
+		<br>
+		
+		<div class="media">
+		  <div class="media-left media-middle">
+			<a href="http://kairos.com">
+			  <img class="media-object" src="kairos.jpg" alt="kairos" width="500" height="250">
+			</a>
+		  </div>
+		  <div class="media-body">
+			<h4 class="media-heading">Kairos</h4>
+			A company in Miami, Florida that uses facial recognition software for developers to utilize.
+		  </div>
+		</div>
+		
+		<br>
+		
+		
+		
+		
+		
+	</div>
+
+	
+
+</body>
+</div>
+
+</html>
