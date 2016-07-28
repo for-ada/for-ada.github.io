@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<!-- jQuery Library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<!-- Latest compiled JavaScript -->
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<script language="javascript" type="text/javascript"></script>
+   
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="webpage.css" rel="stylesheet">
+    <link href="css/full-slider.css" rel="stylesheet">
+	<link rel ="stylesheet" type="text/css" href="index.css">
+</head>	
+<header>
+		<center><img src="logo.jpg" alt="logo" width="250" height="250"></center>
+</header>
+	
+<nav>
+	
+	<span style="font-size:30px;cursor:pointer;" align="left" onclick="openNav()">☰ Menu</span>
+	<a href="homepage.html" id="a" align="left"><font size="6">HOMEPAGE</a></font>                     
+	<a href="about.html" id="a" align="center"><font size="6">ABOUT</a></font>                     
+	<a href="spotlight.html" id="a" align="right"><font size="6">SPOTLIGHT</a></font>
+	
+	<div id="mySidenav" class="sidenav">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+	  <a href="non_profit_organizations.html">Non-Profit Organizations</a>
+	  <a href="tech_companies.html">Tech Companies</a>
+	  <a href="awareness.html">Awareness</a>
+	  <a href="education_occupation.html">Education/Occupation</a>
+	</div>
+
+	<script>
+	function openNav() {
+		document.getElementById("mySidenav").style.width = "250px";
+		document.getElementById("main").style.marginLeft = "250px";
+		document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+	}
+	function closeNav() {
+		document.getElementById("mySidenav").style.width = "0";
+		document.getElementById("main").style.marginLeft= "0";
+		document.body.style.backgroundColor = "white";
+	}
+	</script>
+
+<body>
+	<center><img id="gray_background" src="background.jpg" alt="Gray Background"></center>
+	<img src="awareness.png" alt="Awareness" height="80px" width="300px" style="position: absolute; top:110px; left:120px;">
+	<div class="media" style="float: right; position: absolute; left: 130px; top:200px; margin-right: 650px">
+  <div class="media-left media-middle">
+    <a href="#">
+      <img class="media-object" src="socialmedia.jpg" alt="The Struggle Behind Social Media" height="200px" width="200px">
+    </a>
+  </div>
+  <div class="media-body">
+    <h3 class="media-heading">What is the truth behind those perfect Instagram pictures?</h3>
+    <p>By this point we all know that social media isn't an accurate view of reality.
+	Although we know this, without realizing it social media still plays a huge influence on our daily lives. 
+	Many dream of things they see in social media, such as the couple that travels all over the world.
+	We crave to have the amazing bodies of instagram stars. It's because of this that many times we rarely feel satisfied with ourselves...<p>
+  </div>
+</div> 
+	<div class="media" style="float: right; position: absolute; left: 130px; top:550px; margin-right: 650px">
+  <div class="media-left media-middle">
+    <a href="http://www.forbes.com/sites/womensmedia/2015/06/02/know-what-you-stand-for-how-to-thrive-in-a-male-dominated-industry/#3e97b4035343">
+      <img class="media-object" src="industry.jpg" alt="Working in a male-dominated Industry" height="200px" width="200px">
+    </a>
+  </div>
+  <div class="media-body">
+    <h3 class="media-heading">Knowing What you Stand for</h3>
+    <p>It's astonishing the facts that arise about women in male-dominated industries.
+	In the tech industry men outnumber women 7 to 3 according to Forbes.com.
+	It's even less unlikely to see a company have a female CEO. 
+	Why exactly has it become so difficult for women to become successful in these industries?<p>
+  </div>
+</div>
+<div class="media" style="float: right; position: absolute; left: 700px; top:200px; margin-right: 50px">
+  <div class="media-left media-middle">
+    <a href="http://www.ungei.org/news/afghanistan_2343.html">
+      <img class="media-object" src="education.jpg" alt="Fighting for Education" height="200px" width="200px">
+    </a>
+  </div>
+  <div class="media-body">
+    <h3 class="media-heading">The Fight for Education</h3>
+    <p>It is easy to take education for granted in the United States where it's a requirement.
+	It is a different story in places such as Afghanistan.
+	While here we may complain about how we have to sit through yet another boring lecture, the young girl in Afghanistan
+	dreams of learning about subjects like science or math.
+	How can we make the most of our education and learn from those girls struggling for their education in Afghanistan?<p>
+  </div>
+</div> 
+<div class="media" style="float: right; position: absolute; left: 700px; top:550px; margin-right: 50px">
+  <div class="media-left media-middle">
+    <a href="http://www.huffingtonpost.com/2013/09/02/habits-of-resilient-people_n_3818652.html">
+      <img class="media-object" src="coping.jpg" alt="Coping with Failure" height="200px" width="200px">
+    </a>
+  </div>
+  <div class="media-body">
+    <h3 class="media-heading">How to Cope with Failure</h3>
+    <p>It can be really disheartening to work on something and put a lot of effort into it only for it to fail in the end.
+	It's important however to realize that we will constantly face failures. 
+	This may sound terrible but it's a part of life and there are certain ways in which we can deal with failure.
+	It consists of being resilient and learning, how can we practice these two skills to live a happier more positive life? <p>
+  </div>
+</div>
+</body>
+
+</html>
