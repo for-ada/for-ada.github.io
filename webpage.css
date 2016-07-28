@@ -26,7 +26,7 @@ a:active {
 	font-size: 4;
 }
 nav {
-	font-family:Railway Thin;
+	font-family:arial;
 	position:relative;
 	TOP:30px;
 	LEFT:300px;
@@ -41,12 +41,12 @@ nav {
 #text{
 	position:absolute;
 	top:400px;
-	left:190px;
+	left:20px;
 }
 #text2{
 	position:absolute;
 	top:520px;
-	left:40px;
+	left:20px;
 }
 h1{
 	color: #01415F;
