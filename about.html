@@ -23,10 +23,11 @@
 	<link rel ="stylesheet" type="text/css" href="index.css">
 </head>
 <div class="container-fluid">
+<div id= "header" style="background-color:white;">
 	<div id="logo">
 	<img src="logo.jpg" alt="logo" width="250" height="250">
 	</div>
-	<div class="row">
+	<div class="row" style=>
 	<div class="col-md-2">
 	<span style="font-size:20px;cursor:pointer;" onclick="openNav()"><font color="#d90c1e">☰ Menu</font></span>
 	</div>
@@ -43,14 +44,14 @@
 	<a href="contribute.html" id="a" font-family="arial">CONTRIBUTE</a>
 	</div>
 	
-		<div id="mySidenav" class="sidenav">
+	<div id="mySidenav" class="sidenav">
 	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
 	  <a href="non_profit_organizations.html">Non-Profit Organizations</a>
 	  <a href="tech_companies.html">Tech Companies</a>
 	  <a href="awareness.html">Awareness</a>
 	  <a href="education_occupation.html">Education/Occupation</a>
 	</div>
-
+</div>
 	<script>
 	function openNav() {
 		document.getElementById("mySidenav").style.width = "250px";
@@ -63,36 +64,16 @@
 		document.body.style.backgroundColor = "white";
 	}
 	</script>
-</nav>
-<body>
-	<div id="gray_background">
+
+	
+<div id="gray_background">
 		<div>
 			<img src="aboutus.png" alt="About Us" width="200px" height="50px">
 		</div>
-	
-	<img src="aboutus.png" alt="About Us" width="200px" height="50px">
-	
-	
-	<img src= "group.jpg" alt="group picture" width="400px" height="200px" >
-	
-	<p style="margin-right: 30px;"> 
-	Formed on July 2016, for {ada} was created by four female coders.
-	As the technology industry has continued to expand, many studies have shown that the percentage of girls interested or pursuing STEM has been very small compared to that of boys.
-	This is because of what each gender is exposed to, girls are encouraged to pursue more “feminine” careers such as dancers or writers, while boys typically are encouraged to be scientists or athletes.
-	What girls are not told is that many times STEM is incorporated into a wide variety of fields, from art to film.
-	Due to this lack of STEM exposure to young girls, our group is creating a community powered website that brings awareness to all things tech related.
-	We hope to provide encouragement to young girls to pursue STEM fields by providing role models and a place where girls can encourage each other and help each other find success in their respective fields. 
-	</p>
-	<img src="cg.png" alt="Community Guidelines" width="352px" height="174" >
-	<ul>
-		<li><b>Be respectful:</b> Since this is a community, we want it to be a place where people can openly express themseleves without fear of being judged so please respect others opinions.</li>
-		<li><b>Be kind:</b> If you have something to say be kind, discussions are welcome not arguments.</li>
-		<li><b> Be mindful:</b> If copying content from another site please make sure to cite them and their credentials.</li>
-		<li><b> Have fun!</b> Other than these basic rules, we urge you to have fun and enjoy speaking to others! 
-		Also don't be afraid to post or submit an article, we'd love to read what you have to share. </li>
-	</ul>
-
-
+		<div class="row">
+			<img id="grouppic" src= "group.jpg" alt="group picture" width="400px" height="200px">
+		</div>
+</div>
+</div>
 </body>
-
 </html>
