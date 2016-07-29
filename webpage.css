@@ -20,7 +20,8 @@ a:active {
 }
 a{
 	letter-spacing: 3px;
-	padding: 50px;
+	font-family:Existence;
+	font-size:40px;
 }
 
 h2{
