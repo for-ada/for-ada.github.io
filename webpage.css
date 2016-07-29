@@ -205,10 +205,10 @@ div.desc {
 }
 @font-face{
 	font-family:"Existence";
-	src:url(Existence-Light.ttf);
+	src:url(Existence-Light.otf);
 }
 h1{
-	font-family:"Existence";
+	font-family:Existence;
 	font-size:40px;
 	color:#01415f;
 }
