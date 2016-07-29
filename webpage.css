@@ -186,3 +186,18 @@ div.desc {
     display: table;
     clear: both;
 }
+#logo{
+	padding-left: 500px;
+}
+#gray_background{
+	background-color:#e0e0d1;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #e0e0d1;
+	border-radius: 5px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+#grouppic{
+	margin-left: 400px;
+}
