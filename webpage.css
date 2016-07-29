@@ -204,11 +204,11 @@ div.desc {
 	margin-left:400px;
 }
 @font-face{
-	font-family:"Existence-Light";
+	font-family:"Existence";
 	src:url(Existence-Light.ttf);
 }
 h1{
-	font-family:"Existence-Light";
+	font-family:"Existence";
 	font-size:40px;
 	color:#01415f;
 }
