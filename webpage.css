@@ -153,11 +153,6 @@ body {
   .sidenav a {font-size: 18px;}
 }
 
-#spotlight_container{
-	position:absolute;
-	top:500px;
-	left:30px;
-}
 div.img {
     border: 1px solid #ccc;
 	margin-right:20px;
