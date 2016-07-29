@@ -83,6 +83,8 @@ h2{
     margin-top: 120px;
   }
 }
+
+/*MENU BAR*/
 body {
     font-family: Railway Thin;
     transition: background-color .5s;
@@ -187,17 +189,17 @@ div.desc {
     clear: both;
 }
 #logo{
-	padding-left: 500px;
+	padding-left:500px;
 }
 #gray_background{
 	background-color:#e0e0d1;
-	border-style: solid;
-	border-width: 5px;
+	border-style:solid;
+	border-width:5px;
 	border-color: #e0e0d1;
-	border-radius: 5px;
+	border-radius:5px;
 	margin-left: 10px;
-	margin-bottom: 10px;
+	margin-bottom:10px;
 }
 #grouppic{
-	margin-left: 400px;
+	margin-left:400px;
 }
