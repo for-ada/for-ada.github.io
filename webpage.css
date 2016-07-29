@@ -203,3 +203,12 @@ div.desc {
 #grouppic{
 	margin-left:400px;
 }
+@font-face{
+	font-family:"Existence-Light";
+	src:url(Existence-Light.ttf);
+}
+h1{
+	font-family:"Existence-Light";
+	font-size:40px;
+	color:#01415f;
+}
