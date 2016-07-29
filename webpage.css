@@ -203,9 +203,6 @@ div.desc {
     display: table;
     clear: both;
 }
-#logo{
-	padding-left:500px;
-}
 #gray_background{
 	background-color:#e0e0d1;
 	border-style:solid;
@@ -217,4 +214,9 @@ div.desc {
 }
 #grouppic{
 	margin-left:400px;
+}
+a:hover{
+	background-color: #53D1EE;
+	border-bottom: 5px;
+	border-bottom-color: #D90C1E;
 }
