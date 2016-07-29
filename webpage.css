@@ -22,14 +22,7 @@ a{
 	letter-spacing: 3px;
 	padding: 50px;
 }
-nav {
-	position:relative;
-	TOP:30px;
-	LEFT:200px;
-	BOTTOM:10px;
 
-
-}
 h2{
 	font-family:arial;
 	text-align: center;
@@ -90,10 +83,8 @@ h2{
     margin-top: 120px;
   }
 }
-
-/*NAV BAR*/
 body {
-    font-family: arial;
+    font-family: Railway Thin;
     transition: background-color .5s;
 }
 
@@ -104,30 +95,30 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #000e17;
+    background-color:  #000e17;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
 }
 
 .sidenav a {
-    padding: 8px 8px 8px 32px;
+    padding: 50px 20px 20px 25px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: #ffffff;
     display: block;
     transition: 0.3s
 }
 
 .sidenav a:hover, .offcanvas a:focus{
-    color: #f1f1f1;
+    color: #fed20c;
 }
 
 .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
-    font-size: 36px !important;
+    font-size: 36px;
     margin-left: 50px;
 }
 
@@ -139,4 +130,59 @@ body {
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+}
+
+#spotlight_container{
+	position:absolute;
+	top:500px;
+	left:30px;
+}
+div.img {
+    border: 1px solid #ccc;
+	margin-right:20px;
+	margin-top:40px;
+}
+
+div.img:hover {
+    border: 2px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+	font-family: Railway Thin;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 20px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
