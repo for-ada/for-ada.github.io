@@ -23,12 +23,29 @@ a{
 	font-family:Existence;
 	font-size:25px;
 }
-
+@font-face{
+	font-family:"Existence";
+	src:url(Existence-Light.otf);
+}
+h1{
+	font-family:Existence;
+	font-size:40px;
+	color:#01415f;
+}
 h2{
-	font-family:arial;
+	font-family:Existence;
 	text-align: center;
 }
-
+p{
+	font-family:Existence;
+	font-size:20px;
+	color:black;
+}
+ul{
+	font-family:Existence;
+	font-size:20px;
+	color:black;
+}
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
@@ -204,12 +221,4 @@ div.desc {
 #grouppic{
 	margin-left:400px;
 }
-@font-face{
-	font-family:"Existence";
-	src:url(Existence-Light.otf);
-}
-h1{
-	font-family:Existence;
-	font-size:40px;
-	color:#01415f;
-}
+
