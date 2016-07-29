@@ -2,67 +2,68 @@
 <html lang="en">
 
 <head>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-			
-			<!-- jQuery library -->
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-			
-			<!-- Latest compiled JavaScript -->
-			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-		<!--link rel="stylesheet" type="text/css" href="style.css-->
-		<!--script src="script.js"></script-->
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
-    <!--link href="css/bootstrap.min.css" rel="stylesheet"-->
-	
-    <!--link rel="icon" href="../../favicon.ico"-->
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<!-- jQuery Library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<script language="javascript" type="text/javascript"></script>
+   
+    <link href="bootstrap.min.css" rel="stylesheet">
+<link href="webpage.css" rel="stylesheet">
+    <link href="full-slider.css" rel="stylesheet">
+<link rel ="stylesheet" type="text/css" href="index.css">
 
-    <!--title>Carousel Template for Bootstrap</title-->
-
-    <!-- Bootstrap core CSS -->
-    <!--link href="../../dist/css/bootstrap.min.css" rel="stylesheet"-->
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <!--link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet"-->
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <!--script src="../../assets/js/ie-emulation-modes-warning.js"></script-->
-	
 	<link href="webpage2.css" rel="stylesheet">
 	
 	<link href="webpage.css" rel="stylesheet">
 
-
 </head>
-		<!-- needs to be in body-->
-<header>
-		<center><img src="foradalogo.jpg" alt="logo" width="350" height="250"></center>
-</header>
 
 <body>
-	<nav>
-
+<div class="container-fluid">
+	<div id="logo" class="col-xl-2">
+		<img src="logo.jpg" alt="logo" width="350" height="350">
+	</div>
+	<div class="container">
+<!--<div id= "header" style="background-color:white;">-->
+	<div class="row">
+	<div class="col-md-12">
+	<div class="row">
+	<div class="col-md-2">
 		<span style="font-size:25px;cursor:pointer;font-family:Existence;" onclick="openNav()"><font color="#d90c1e">☰ Menu</font></span>
-		<a href="homepage.html" id="a" font-family="arial">HOMEPAGE</a>
-		<a href="about.html" id="a" font-family="arial">ABOUT</a>
+	</div>
+	<div class="col-md-2">
+		<a href="homepage.html" id="a" font-family="arial">HOMEPAGE</a>   
+	</div>
+	<div class="col-md-2">
+		<a href="about.html" id="a" font-family="arial">ABOUT</a>   
+	</div>
+	<div class="col-md-2">
 		<a href="spotlight.html" id="a" font-family="arial">SPOTLIGHT</a>
+	</div>
+	<div class="col-md-4">
 		<a href="contribute.html" id="a" font-family="arial">CONTRIBUTE</a>
-		<br></br><br></br><br></br><br></br><br></br>
-		
-		<div id="mySidenav" class="sidenav">
-		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-		  <a href="non_profit_organizations.html">Non-Profit Organizations</a>
-		  <a href="tech_companies.html">Tech Companies</a>
-		  <a href="awareness.html">Awareness</a>
-		  <a href="education_occupation.html">Education/Occupation</a>
-		</div>
-	
+	</div>
+	</div>
+	</div>
+	</div>
+	<div id="mySidenav" class="sidenav">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+	  <a href="non_profit_organizations.html">Non-Profit Organizations</a>
+	  <a href="tech_companies.html">Tech Companies</a>
+	  <a href="awareness.html">Awareness</a>
+	  <a href="education_occupation.html">Education/Occupation</a>
+	</div>
+</div>
 		<script>
 		function openNav() {
 			document.getElementById("mySidenav").style.width = "250px";
