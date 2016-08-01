@@ -110,7 +110,7 @@ ul{
 #backgroundimg{
    background: url(indexbackground.jpg); 
    background-repeat:no-repeat;
-   background-size: 100% 100%;
+   background-size: 100%;
    opacity:0.90; 
    filter: alpha(opacity=90);
 }
