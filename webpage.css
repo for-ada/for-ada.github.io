@@ -108,16 +108,19 @@ ul{
   }
 }
 #backgroundimg{
-   background: url(background3.jpg) no-repeat center center fixed; 
+   background: url(background2.jpg); 
+   background-repeat:no-repeat;
    background-size: cover;
    opacity:0.90; 
    filter: alpha(opacity=90);
 }
 #logo{
    background-color:transparent;
+    background-repeat:no-repeat;
 }
 #button{
    background-color: transparent;
+    background-repeat:no-repeat;
 }
 /*MENU BAR*/
 body {
