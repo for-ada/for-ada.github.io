@@ -114,7 +114,7 @@ ul{
    filter: alpha(opacity=90);
 }
 #logo{
-   background-color: transparent;
+   opacity:0.5;
 }
 #button{
    background-color: transparent;
