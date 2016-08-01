@@ -25,8 +25,22 @@
 </head>
 <body>
 <div class="container-fluid">
-	<div id="logo" class="col-md-2">
-		<img src="logo.jpg" alt="logo" width="350" height="350">
+	<div class="container">
+	<div class="row">
+		<div class="col-md-4">
+		</div>
+		<div class="col-md-4">
+			<img src="logo.jpg" alt="logo" width="350" height="350">
+		</div>
+		<div class="col-md-4"><h2>
+			<script language = "JavaScript">
+			var now = new Date();
+			var dayNames = new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
+			var monNames = new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+			document.write("Today's date is " + dayNames[now.getDay()] + " " + monNames[now.getMonth()] + " " + now.getDate() + ", " + now.getFullYear());
+			</script></h2>
+		</div>
+	</div>
 	</div>
 	<div class="container">
 <!--<div id= "header" style="background-color:white;">-->
