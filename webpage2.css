@@ -35,6 +35,11 @@ h2{
 	text-align: center;
 }
 
+li {
+  display: inline-block;
+  margin-right: -4px;
+}
+
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
