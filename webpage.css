@@ -117,7 +117,8 @@ body {
     top: 0;
     left: 0;
     background-color:  #000e17;
-    opacity:1;
+    opacity:0.65; 
+    filter: alpha(opacity=60);
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
