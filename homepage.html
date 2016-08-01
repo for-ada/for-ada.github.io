@@ -2,6 +2,10 @@
 <html lang="en">
 
 <head>
+	
+	<link rel="icon" href="flower.png">
+
+	
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -29,9 +33,33 @@
 </head>
 
 <body>
+	
+
+<div id="google_translate_element"></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        	
+	
+	
 <div class="container-fluid">
-	<div id="logo" class="col-xl-2">
-		<img src="logo.jpg" alt="logo" width="350" height="350">
+	<div class="container">
+	<div class="row">
+		<div class="col-md-4">
+		</div>
+		<div class="col-md-4">
+			<img src="logo.jpg" alt="logo" width="350" height="350">
+		</div>
+		<div class="col-md-4"><h2>
+			<script language = "JavaScript">
+			var now = new Date();
+			var dayNames = new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
+			var monNames = new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+			document.write("Today's date is " + dayNames[now.getDay()] + " " + monNames[now.getMonth()] + " " + now.getDate() + ", " + now.getFullYear());
+			</script></h2>
+		</div>
+	</div>
 	</div>
 	<div class="container">
 <!--<div id= "header" style="background-color:white;">-->
@@ -66,8 +94,8 @@
 </div>
 		<script>
 		function openNav() {
-			document.getElementById("mySidenav").style.width = "250px";
-			document.getElementById("main").style.marginLeft = "250px";
+			document.getElementById("mySidenav").style.width = "350px";
+			document.getElementById("main").style.marginLeft = "350px";
 			document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
 		}
 		function closeNav() {
@@ -82,28 +110,6 @@
 	<hr style="width: 100%; color: black; height: 1px; background-color:black;" />
 	
 	<br></br><br></br>
-	 <center>
-	        <div class="container">
-	            <div class="row">
-	                <div class="header-col col-md-5">
-	                    <img src="adapic.jpg" width= "280px" height="50px">
-	                </div>
-	                <div class="footer-col col-md-5">
-	                    <img src="adapic2.jpg" width= "280px" height="50px">
-	          
-	                </div>
-	                <div class="col col-md-5">
-	                     <img src="adapic3.jpg" width= "280px" height="50px">
-	                </div>
-	                <div class="col col-md-5">
-	                     <img src="adapic4.jpg" width= "280px" height="50px">		
-	                </div>
-	                <div class="col col-md-5">
-	                     <img src="adapic5.jpg" width= "280px" height="50px">		
-	                </div>
-	            </div>
-	        </div>
-	 </center>
 	
 	
 	<center>
@@ -198,22 +204,18 @@
 	        <div class="container">
 	            <div class="row">
 	                <div class="footer-col col-md-4">
-	                    <h3>for{ada}</h3>
-	                    <ul class="list-inline">
-	                	 <p><a href="about.html">ABOUT</a></p>	
-	                	 <p><a href="contribute.html">CONTRIBUTE</a></p>
-	                	 <p><a href="advertise.html">ADVERTISING</a></p>
-	                    </ul>
-	                    
+	                    <h3>Location</h3>
+	                    <p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>
 	                </div>
 	                <div class="footer-col col-md-4">
-	                    <img src="adalogo2.jpg"
+	                    <h3>Around the Web</h3>
 	                    <ul class="list-inline">
 	                        <!-- some social networks -->
 	                    </ul>
 	                </div>
 	                <div class="footer-col col-md-4">
-	                    <h3>SUBSCRIBE</h3>
+	                    <h3>About Freelancer</h3>
+	                    <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
 	                </div>
 	            </div>
 	        </div>
