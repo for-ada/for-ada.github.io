@@ -1,5 +1,6 @@
-.list-inline {
-	padding:0;
+.list-inline{
+   padding: 0 !important;
+   margin: 0 !important;
 }
 
 
