@@ -289,13 +289,12 @@ div.desc {
   display: none;
 }
 .scrollup {
-    width: 40px;
-    height: 40px;
+    width: 80px;
+    height: 80px;
     position: fixed;
     bottom: 50px;
     right: 100px;
     display: none;
     text-indent: -9999px;
     background: url('up.jpg') no-repeat;
-    background-color: #000;
 }
