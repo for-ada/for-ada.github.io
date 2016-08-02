@@ -120,6 +120,23 @@ function googleTranslateElementInit() {
   $('[data-toggle="tooltip"]').tooltip()
 })
 	</script>
+	<script>
+	$(document).ready(function () {
+    	$(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $('.scrollup').fadeIn();
+        } else {
+            $('.scrollup').fadeOut();
+        }
+    	});
+    	$('.scrollup').click(function () {
+        $("html, body").animate({
+            scrollTop: 0
+        }, 600);
+        return false;
+        });
+        });
+	</script>
 <div class="container-fluid">	
 <hr style="width: 100%; color: black; height: 1px; background-color:black;" />
 <br><br>
@@ -171,7 +188,9 @@ function googleTranslateElementInit() {
 		<li><b> Have fun!</b> Other than these basic rules, we urge you to have fun and enjoy speaking to others! 
 		Also don't be afraid to post or submit an article, we'd love to read what you have to share. :) </li>
 	</ul>
-</div>
+	<div>
+	 	 <a href="#" class="scrollup">Scroll</a>
+	 </div>
 </div>
 </div>
 </body>
