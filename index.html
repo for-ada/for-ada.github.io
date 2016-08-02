@@ -25,6 +25,24 @@
 <link rel="stylesheet" href="magic.css">
 
 </head>
+<script>
+	setTimeout(function(){
+	$(button).addClass('magictime vanishIn');
+	}, 80);
+	setTimeout(function(){
+	$(logo).addClass('magictime vanishIn');
+	}, 80);
+		
+	var myVar;
+	function myFunction() {
+	myVar = setTimeout(showPage, 1500);
+	}
+		
+	function showPage() {
+	document.getElementById("loader").style.display = "none";
+	document.getElementById("myDiv").style.display = "block";
+	}
+</script>
 
 <div class="container-fluid">
 			
@@ -36,24 +54,7 @@
 
 <body id="backgroundimg">
 		
-	<script>
-		setTimeout(function(){
-		$(button).addClass('magictime vanishIn');
-		}, 80);
-		setTimeout(function(){
-		$(logo).addClass('magictime vanishIn');
-		}, 80);
-		
-		var myVar;
-		function myFunction() {
-		    myVar = setTimeout(showPage, 1500);
-		}
-		
-		function showPage() {
-		  document.getElementById("loader").style.display = "none";
-		  document.getElementById("myDiv").style.display = "block";
-		}
-	</script>
+	
 <div style="display:none;" id="myDiv" class="animate-bottom">
 	
     <div class="container">
