@@ -36,6 +36,14 @@
 	    </div>
 	    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
 		<img id="logo" src="logo.png" alt="logo" width="90%" height="90%">
+		<script>
+		setTimeout(function(){
+		    $(logo).addClass('magictime vanishIn');
+		}, 2000);
+		$(logo).hover(function () {
+		  $(this).addClass('magictime vanishIn');
+		});
+		</script>
 	    </div>
 	    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
 	    </div>
@@ -51,6 +59,9 @@
 	    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">	
 		<a href="homepage.html"><img id="button" src="button.png" alt="button" width="90%" height="90%"></a>
 		<script>
+		setTimeout(function(){
+		    $(button).addClass('magictime vanishIn');
+		}, 2000);
 		$(button).hover(function () {
 		  $(this).addClass('magictime vanishIn');
 		});
