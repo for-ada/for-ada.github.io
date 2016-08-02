@@ -2,6 +2,10 @@
   margin-right:0;
   margin-left:0;
 }
+#space{
+	padding:0;
+	margin:0;
+}
 
 .row.no-pad > [class^="col-"],
 .row.no-pad > [class*='col-'] {
