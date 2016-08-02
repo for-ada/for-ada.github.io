@@ -22,6 +22,8 @@
     <link href="full-slider.css" rel="stylesheet">
 <link rel ="stylesheet" type="text/css" href="index.css">
 
+<link rel="stylesheet" href="magic.css">
+
 </head>
 
 <div class="container-fluid">
@@ -48,6 +50,9 @@
 	    </div>
 	    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">	
 		<a href="homepage.html"><img id="button" src="button.png" alt="button" width="90%" height="90%"></a>
+		$(button).hover(function () {
+		  $(this).addClass('magictime vanishIn');
+		});
 	    </div>
 	    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
 	    </div>
