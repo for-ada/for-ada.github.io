@@ -126,6 +126,7 @@ ul{
 body {
     font-family: Railway Thin;
     transition: background-color .5s;
+    margin-bottom: 200%;
 }
 
 .sidenav {
@@ -297,4 +298,27 @@ div.desc {
     display: none;
     text-indent: -9999px;
     background: url('up.jpg') no-repeat;
+}
+
+
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+width: 12px;
+height: 12px;
+}
+
+::-webkit-scrollbar-track {
+box-shadow: inset 0 0 10px #99b3bf;
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+border-radius: 10px;
+background: #01415f; 
+box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #4d7a8f;
 }
