@@ -36,25 +36,26 @@
 
 <body id="backgroundimg">
 		
-<script>
-	setTimeout(function(){
-	$(button).addClass('magictime vanishIn');
-	}, 80);
-	setTimeout(function(){
-	$(logo).addClass('magictime vanishIn');
-	}, 80);
-	
-	var myVar;
-	function myFunction() {
-	    myVar = setTimeout(showPage, 1500);
-	}
-	
-	function showPage() {
-	  document.getElementById("loader").style.display = "none";
-	  document.getElementById("myDiv").style.display = "block";
-	}
-</script>
+	<script>
+		setTimeout(function(){
+		$(button).addClass('magictime vanishIn');
+		}, 80);
+		setTimeout(function(){
+		$(logo).addClass('magictime vanishIn');
+		}, 80);
+		
+		var myVar;
+		function myFunction() {
+		    myVar = setTimeout(showPage, 1500);
+		}
+		
+		function showPage() {
+		  document.getElementById("loader").style.display = "none";
+		  document.getElementById("myDiv").style.display = "block";
+		}
+	</script>
 <div style="display:none;" id="myDiv" class="animate-bottom">
+	
     <div class="container">
     <div class="row">
 	    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
@@ -82,7 +83,6 @@
     </div>
     </div>
     
-</div>	
 </div>
 </div>
 </body>
