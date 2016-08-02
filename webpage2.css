@@ -6,7 +6,14 @@
 	padding:0;
 	margin:0;
 }
-
+#space2{
+	padding:0;
+	margin:0;
+}
+#space3{
+	padding:0;
+	margin:0;
+}
 .row.no-pad > [class^="col-"],
 .row.no-pad > [class*='col-'] {
   padding-right:0;
