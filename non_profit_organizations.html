@@ -116,6 +116,23 @@ function googleTranslateElementInit() {
 		document.body.style.backgroundColor = "white";
 	}
 	</script>
+	<script>
+	$(document).ready(function () {
+    	$(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $('.scrollup').fadeIn();
+        } else {
+            $('.scrollup').fadeOut();
+        }
+    	});
+    	$('.scrollup').click(function () {
+        $("html, body").animate({
+            scrollTop: 0
+        }, 600);
+        return false;
+        });
+        });
+	</script>
 
 <hr style="width: 100%; color: black; height: 1px; background-color:black;" />
 <br><br>
@@ -207,7 +224,9 @@ function googleTranslateElementInit() {
 	</div>
 
    </div>
-   
+   <div>
+   	<a href="#" class="scrollup">To Top</a>
+   </div>
 </body>
 </div>
 </div>
