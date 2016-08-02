@@ -104,7 +104,12 @@ function googleTranslateElementInit() {
 <div class="container-fluid">
 	
   	<div class="container-fluid">
-  	<h1><b> Awareness </b></h1>		
+  	<h1><b> Awareness </b></h1> <!-- Google Custom Search Element -->
+	<div id=”cse” style=”width:100%;”>Loading</div>
+	<script src=”http://www.google.com/jsapi” type=”text/javascript”></script>
+	<script type=”text/javascript”>google.load(‘search’, ‘1’);
+         google.setOnLoadCallback(function(){var cse = new google.search.
+         CustomSearchControl();cse.draw(‘cse’);}, true);</script>		
   	</div>
   
   <div class="container-fluid">
