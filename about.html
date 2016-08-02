@@ -25,8 +25,28 @@
 <link rel ="stylesheet" type="text/css" href="index.css">
 
 </head>
+<script>
+var myVar;
+
+function myFunction() {
+    myVar = setTimeout(showPage, 1500);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
+
+<body onload="myFunction()" style="margin:0;">
+
+<div id="loader"></div>
+
+</body>
+
 <body>
-	
+<div style="display:none;" id="myDiv" class="animate-bottom">
+		
 <div id="google_translate_element"></div><script type="text/javascript">
 function googleTranslateElementInit() {
   new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
@@ -151,6 +171,7 @@ function googleTranslateElementInit() {
 		<li><b> Have fun!</b> Other than these basic rules, we urge you to have fun and enjoy speaking to others! 
 		Also don't be afraid to post or submit an article, we'd love to read what you have to share. :) </li>
 	</ul>
+</div>
 </div>
 </div>
 </body>
