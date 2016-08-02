@@ -293,8 +293,8 @@ div.desc {
     width: 50px;
     height: 50px;
     position: fixed;
-    bottom: 0px;
-    right: 0px;
+    bottom: 50px;
+    right: 100px;
     display: none;
     text-indent: -99px;
     background: url('up.jpg') no-repeat;
